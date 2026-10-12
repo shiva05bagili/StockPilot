@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+
+# Data caches & generated datasets
+data/raw/
+data/processed/
+data/test_processed/
+data/scalers/
+data/ingestion_report_*.json
+*.parquet
+*.pkl
+
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
